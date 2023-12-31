@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        divider = parseInt(prompt("enter a num"))
+        exit = parseInt(prompt("enter a exit num"))
+
+        for (i = 1; i <= 100; i++) {
+            if (i % divider === 0) {
+                continue;
+            } if (i === exit) {
+                break;
+                document.write(i + '</br>')
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>
