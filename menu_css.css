@@ -1,0 +1,10 @@
+#div1{
+    height: auto;
+    text-align: start;
+}
+
+#menu_table th{
+    border: 1px black solid;
+    padding: 5px;
+
+}
