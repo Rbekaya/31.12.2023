@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resturant Menu</title>
+    <link rel="stylesheet" href="menu_css.css">
+    <script src="menu_function.js"></script>
+</head>
+
+<body>
+    <form id="form1">
+        <p>
+        <h3>Add Menue Items</h3> 
+        ID: <input type="number" id="id_menu"> &nbsp;&nbsp;&nbsp;&nbsp;Item Name: <input type="text" id="item_name"> <br>
+        Description: <input type="text" id="description"> Price: <input type="number" id="price"> <br>
+        Picture URL: <input type="url" id="url">
+        </p>
+        <button onclick="add_click()">Add Menue Item</button>
+    </form>
+    <h2>Menu</h2>
+    <table id="menu_table">
+        <tr>
+            <th>ID</th>
+            <th>Iten Mane</th>
+            <th>description</th>
+            <th>Price</th>
+            <th>Picture URL</th>
+        </tr>
+
+    </table>
+
+
+
+
+
+</body>
+
+</html>

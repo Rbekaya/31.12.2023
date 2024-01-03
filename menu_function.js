@@ -1,3 +1,12 @@
+//getimg element from the HTML Page 
+    let id = document.getElementById('id_dish')
+    let dish = document.getElementById('dish_name')
+    let des = document.getElementById('description')
+    let price = document.getElementById('dish_price')
+    let url = document.getElementById('dish_url')
+    let menu_table = document.getElementById('menu_table')
+
+
 //add click button 
 function add_click(){
     let idv = parseInt(id_dish.value)
@@ -7,7 +16,7 @@ function add_click(){
     let urlv = dish_url.value
      add_row(idv,dishv,desv,pricev,urlv)
 }
-
+//adding a new row to the table  
 function add_row(idv,dishv,desv,pricev,urlv){
     let new_row = menu_table.insertRow(-1)
 
@@ -25,7 +34,6 @@ function add_row(idv,dishv,desv,pricev,urlv){
     
     clear_txt()
 }
-
 // clear data from inputs 
 function clear_txt(){
     id_dish.value = ''
