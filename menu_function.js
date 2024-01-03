@@ -34,6 +34,23 @@ function add_row(idv,dishv,desv,pricev,urlv){
     
     clear_txt()
 }
+
+function add_image_to_table(cell_Picture_URL,urlv){
+    let img = document.createElement('img')
+    img.src = urlv
+
+let cell =document.getElementById(cell_Picture_URL)
+}
+
+switch (urlv) {
+    case url:
+        cell_Picture_URL.innerHTML = '<img src="" style="width:50px;" />'
+        break;
+
+
+}
+
+
 // clear data from inputs 
 function clear_txt(){
     id_dish.value = ''
